@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interactive Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Interactive Quiz</h1>
+
+    <!-- User Form -->
+    <div id="user-form">
+      <input type="text" id="name" placeholder="Enter your name" required />
+      <input type="number" id="age" placeholder="Enter your age" required />
+
+      <label for="category">Select Quiz Topic:</label>
+      <select id="category">
+        <option value="9">General Knowledge</option>
+        <option value="17">Science & Nature</option>
+        <option value="18">Computer Science</option>
+        <option value="23">History</option>
+        <option value="21">Sports</option>
+        <option value="22">Geography</option>
+        <option value="12">Music</option>
+        <option value="11">Film</option>
+        <option value="15">Video Games</option>
+      </select>
+
+      <button onclick="showInstructions()">Continue</button>
+    </div>
+
+    <!-- Instructions -->
+    <div id="instructions" style="display: none;">
+      <h2>Instructions</h2>
+      <p>You will be given 5 questions based on your chosen topic.</p>
+      <p>You will have 1 minute to answer each question.</p>
+      <p>Click the correct option to get instant feedback.</p>
+      <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Section -->
+    <div id="question-container" style="display: none;">
+      <p id="timer">Time Left: 60s</p>
+      <p id="question">Loading question...</p>
+      <div id="answer-buttons"></div>
+      <p id="feedback"></p>
+      <button id="next-btn">Next</button>
+    </div>
+
+    <p id="score"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
