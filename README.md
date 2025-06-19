@@ -83,6 +83,12 @@ A free-to-use API that offers trivia questions categorized by topic and difficul
 
 # OUTPUT
 
+<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/e82a61e6-3153-4159-8665-c201d5f07131" />
+
 <img width="1280" alt="Image" src="https://github.com/user-attachments/assets/f7836621-42ab-4241-bcb4-d6d43df4b417" />
 
-<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/e82a61e6-3153-4159-8665-c201d5f07131" />
+<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/d909a366-f183-4c68-bd97-688cca3e5c0e" />
+
+<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/3bcd3b06-1018-488f-90a6-37eb922072e8" />
+
+<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/dfbf6b68-2d12-45ab-b4e9-a1e9c955de19" />
