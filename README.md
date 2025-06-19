@@ -12,6 +12,8 @@
 
 *MENTOR*: NEELA SANTOSH
 
+---
+
 An interactive, timed quiz web application built using **JavaScript**, **HTML**, and **CSS**, which dynamically fetches quiz questions from a public API. Users can enter their name and age, select a quiz topic of interest, read instructions, and then take a 5-question quiz with a timer of 1 minute per question. Feedback is provided instantly, and the final score is shown with the user’s name.
 
 ---
